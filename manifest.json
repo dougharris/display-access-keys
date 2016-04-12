@@ -1,0 +1,12 @@
+{
+	"name": "Display Access Keys",
+	"version": "1.1",
+	"manifest_version": 2,
+
+	"description": "Displays hint of access keys next ot the elements.",
+	"content_scripts": [ {
+		"all_frames": true,
+		"matches": [ "http://*/*", "https://*/*" ],
+        "css": [ "display-access-keys.css" ]
+	} ]
+}
